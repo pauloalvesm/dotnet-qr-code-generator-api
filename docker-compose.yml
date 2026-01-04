@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  qrcode-api:
+    image: qrcode-api:latest
+    build:
+      context: . 
+      dockerfile: src/QrCode.Api/Dockerfile
+    ports:
+      - "8080:8080"  
+      - "8081:8081"  
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    networks:
+      - qrcode-network
+
+networks:
+  qrcode-network:
+    driver: bridge
