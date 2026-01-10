@@ -27,3 +27,7 @@ git clone https://github.com/pauloalvesm/dotnet-qr-code-generator-api.git
 ## 👤 Author
 
 **[Paulo Alves](https://github.com/pauloalvesm)**
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
