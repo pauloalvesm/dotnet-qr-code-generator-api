@@ -1,8 +1,9 @@
 using QrCode.Api.DTOs;
 using QrCode.Api.Mappers;
+using QrCode.Api.Services.Interfaces;
 using QRCoder;
 
-namespace QrCode.Api.Services;
+namespace QrCode.Api.Services.Implementations;
 
 public class QrCodeService : IQrCodeService
 {

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using QrCode.Api.DTOs;
-using QrCode.Api.Services;
+using QrCode.Api.Services.Interfaces;
 
 namespace QrCode.Api.Controllers;
 
