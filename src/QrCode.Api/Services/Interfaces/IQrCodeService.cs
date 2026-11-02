@@ -1,6 +1,6 @@
 using QrCode.Api.DTOs;
 
-namespace QrCode.Api.Services;
+namespace QrCode.Api.Services.Interfaces;
 
 public interface IQrCodeService
 {

@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Moq;
 using QrCode.Api.Controllers;
 using QrCode.Api.DTOs;
-using QrCode.Api.Services;
+using QrCode.Api.Services.Interfaces;
 
 namespace QrCode.Api.Tests.Controllers;
 

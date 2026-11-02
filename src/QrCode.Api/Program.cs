@@ -1,4 +1,6 @@
 using QrCode.Api.Services;
+using QrCode.Api.Services.Implementations;
+using QrCode.Api.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
